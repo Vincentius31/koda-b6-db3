@@ -19,6 +19,7 @@ WHERE "rankscore" >= 5 AND "rankscore" <= 7 AND "year" >= 2004 AND "year" <= 200
 ORDER BY rankscore ASC;
 
 -- Menghitung jumlah movie dengan rating 6
+
 SELECT COUNT("id")
 FROM movies
 WHERE rankscore = 6;
