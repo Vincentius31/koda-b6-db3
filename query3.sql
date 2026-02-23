@@ -24,6 +24,6 @@ ORDER BY "Jumlah Movie" DESC
 LIMIT 10;
 
 -- Mendapatkan movies dengan genres yang dibutuhkan menjadi 1 column (value dipisahkan dengan comma) dengan string_agg
-SELECT movies.id, movies.name, string_agg(movies_genres.genre , ',' )
+SELECT movies.id, movies.name, string_agg(movies_genres.genre , ',' ) AS "Genres"
 FROM movies INNER JOIN movies_genres ON movies_genres.movie_id = movies.id
 GROUP BY movies.id, movies.name;
