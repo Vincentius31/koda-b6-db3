@@ -15,3 +15,11 @@ Querrying practice using PostgresSQL for KODA Assestment. Here is the results:
 ---
 
 ![Soal 4](./assets/nomor4.png)
+
+---
+
+![Soal 5](./assets/nomor5.png)
+
+---
+
+![Soal 6](./assets/nomor6.png)
